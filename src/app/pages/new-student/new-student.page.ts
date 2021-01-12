@@ -34,7 +34,7 @@ export class NewStudentPage implements OnInit {
       controlnumber: this.myForm.controls.controlnumber.value,
       age: this.myForm.controls.age.value,
       curp: this.myForm.controls.curp.value,
-      active: this.myForm.controls.active.value
+      active: this.myForm.controls.active.value,
     };
     this.studentService.createStudent(this.student);
     this.cleanInputs();
